@@ -1,0 +1,52 @@
+apiVersion: datapower.ibm.com/v1beta3
+kind: DataPowerService
+metadata:
+  name: datapower-service 
+spec:
+  license:
+    accept: true
+    license: {{ .Values.spec.license}}
+    use: {{ .Values.spec.use}}
+  serviceAccountName: {{ .Values.spec.serviceAccount}}
+  imagePullSecrets:
+    - {{ .Values.spec.imagePullSecrets}}
+  resources:
+    limits:
+      memory: 4Gi
+    requests:
+      cpu: '1'
+      memory: 4Gi
+  readinessProbe:
+    failureThreshold: 3
+    httpGet:
+      path: /
+      port: 7879
+      scheme: HTTP
+    initialDelaySeconds: 10
+    periodSeconds: 5
+    successThreshold: 1
+    timeoutSeconds: 5
+  users:
+    - accessLevel: privileged
+      name: admin
+      passwordSecret: {{ .Values.spec.users.passwordSecret}}
+  livenessProbe:
+    failureThreshold: 3
+    httpGet:
+      path: /
+      port: 7879
+      scheme: HTTP
+    initialDelaySeconds: 10
+    periodSeconds: 5
+    successThreshold: 1
+    timeoutSeconds: 5
+  imagePullPolicy: {{ .Values.spec.imagePullPolicy}}
+  version: {{ .Values.spec.version}}
+  podManagementPolicy: {{ .Values.spec.podManagementPolicy}}
+  storage:
+    - class: {{ .Values.spec.storage.class}}
+      path: {{ .Values.spec.storage.path}}
+      size: {{ .Values.spec.storage.size}}
+      type: {{ .Values.spec.storage.type}}
+      volumeMode: {{ .Values.spec.storage.volumeMode}}
+  replicas: {{ .Values.spec.replicas}}
