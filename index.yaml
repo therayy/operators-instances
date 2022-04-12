@@ -3,20 +3,11 @@ entries:
   ibm-dpservice-instance:
   - apiVersion: v2
     appVersion: 10.0-cd
-    created: "2022-04-05T11:49:49.514332-07:00"
-    digest: 5f0be96a4b6c14d8b20b67154f986723b77104c3051060405df9a55305a6dea6
-    name: ibm-dpservice-instance
-    type: application
-    urls:
-    - https://therayy.github.io/operators-instances/ibm-dpservice-instance-1.0.1.tgz
-    version: 1.0.1
-  - apiVersion: v2
-    appVersion: 10.0-cd
-    created: "2022-04-05T11:49:49.513984-07:00"
-    digest: 998a99f6e19fc560f2cb2ace3fbf620d4f1d4ad7365b174a1c3eb025e3057673
+    created: "2022-04-12T12:40:40.184577-07:00"
+    digest: e96cb6e7e43c29d7a35360147b75099971dd5ec4a8c39c39ada29cff2f0247bb
     name: ibm-dpservice-instance
     type: application
     urls:
     - https://therayy.github.io/operators-instances/ibm-dpservice-instance-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-05T11:49:49.513428-07:00"
+generated: "2022-04-12T12:40:40.184031-07:00"
