@@ -9,6 +9,6 @@ entries:
     name: ppcmq
     type: application
     urls:
-    - https://therayy.github.io/operators-instances/ppcmq-0.1.0.tgz
+    - https://therayy.github.io/operators-instances/Pepsico-qm/ppcmq-0.1.0.tgz
     version: 0.1.0
 generated: "2022-05-12T15:25:38.131246-07:00"
