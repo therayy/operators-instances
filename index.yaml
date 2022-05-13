@@ -3,25 +3,32 @@ entries:
   ibm-dpservice-instance:
   - apiVersion: v2
     appVersion: 10.0-cd
-    created: "2022-04-12T12:40:40.184577-07:00"
+    created: "2022-05-13T11:04:43.937163-07:00"
     digest: e96cb6e7e43c29d7a35360147b75099971dd5ec4a8c39c39ada29cff2f0247bb
     name: ibm-dpservice-instance
     type: application
     urls:
     - https://therayy.github.io/operators-instances/ibm-dpservice-instance-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-12T12:40:40.184031-07:00"
-apiVersion: v1
-entries:
   ppcmq:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-12T21:05:30.547375-07:00"
+    created: "2022-05-13T11:04:43.937798-07:00"
+    description: A Helm chart for Kubernetes
+    digest: d41093a70f3f452495f2da17578f05b9f4bae3cbb5f0dc017fb39c52b4108d88
+    name: ppcmq
+    type: application
+    urls:
+    - https://therayy.github.io/operators-instances/ppcmq-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-13T11:04:43.937469-07:00"
     description: A Helm chart for Kubernetes
     digest: eff9dc963d0d8b1567d99d26718cf08ff034b1af513d4c9d29e88af3c4aec87d
     name: ppcmq
     type: application
     urls:
-    - https://therayy.github.io/pepsico-instances/ppcmq-0.1.0.tgz
+    - https://therayy.github.io/operators-instances/ppcmq-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-12T21:05:30.546865-07:00"
+generated: "2022-05-13T11:04:43.936607-07:00"
