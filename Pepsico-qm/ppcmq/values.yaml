@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 metadata:
   generation: 2
-  name: ppcqm
+  name: ppcmq
   namespace: tools
 spec:
   license:
@@ -23,7 +23,7 @@ spec:
         memory: 1Gi 
     route:
       enabled: true
-    name: ppcqm
+    name: ppcmq
     imagePullPolicy: IfNotPresent
     storage:
       defaultClass: azure-file
