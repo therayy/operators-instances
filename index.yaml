@@ -3,7 +3,7 @@ entries:
   ibm-dpservice-instance:
   - apiVersion: v2
     appVersion: 10.0-cd
-    created: "2022-05-13T11:04:43.937163-07:00"
+    created: "2022-05-13T12:07:10.558427-07:00"
     digest: e96cb6e7e43c29d7a35360147b75099971dd5ec4a8c39c39ada29cff2f0247bb
     name: ibm-dpservice-instance
     type: application
@@ -13,7 +13,17 @@ entries:
   ppcmq:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-13T11:04:43.937798-07:00"
+    created: "2022-05-13T12:07:10.559514-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 9b49978c10542a3d59fc46d0bc5fb28bfb11d9076081d8634673e85936906780
+    name: ppcmq
+    type: application
+    urls:
+    - https://therayy.github.io/operators-instances/ppcmq-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-13T12:07:10.559167-07:00"
     description: A Helm chart for Kubernetes
     digest: d41093a70f3f452495f2da17578f05b9f4bae3cbb5f0dc017fb39c52b4108d88
     name: ppcmq
@@ -23,7 +33,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-13T11:04:43.937469-07:00"
+    created: "2022-05-13T12:07:10.558809-07:00"
     description: A Helm chart for Kubernetes
     digest: eff9dc963d0d8b1567d99d26718cf08ff034b1af513d4c9d29e88af3c4aec87d
     name: ppcmq
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://therayy.github.io/operators-instances/ppcmq-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-13T11:04:43.936607-07:00"
+generated: "2022-05-13T12:07:10.557714-07:00"
