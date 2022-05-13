@@ -16,12 +16,12 @@ entries:
   ppcmq:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-12T15:25:38.131806-07:00"
+    created: "2022-05-12T21:05:30.547375-07:00"
     description: A Helm chart for Kubernetes
-    digest: 4a357281f6ed697d3750489879bc4a8d87e7863aec1d65091fb59815754e4f56
+    digest: eff9dc963d0d8b1567d99d26718cf08ff034b1af513d4c9d29e88af3c4aec87d
     name: ppcmq
     type: application
     urls:
-    - https://therayy.github.io/operators-instances/ppcmq-0.1.0.tgz
+    - https://therayy.github.io/pepsico-instances/ppcmq-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-12T15:25:38.131246-07:00"
+generated: "2022-05-12T21:05:30.546865-07:00"

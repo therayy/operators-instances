@@ -3,7 +3,6 @@ kind: QueueManager
 metadata:
   finalizers:
     - finalizer.queuemanagers.mq.ibm.com
-  generation: {{ .Values.metadata.generation}}
   managedFields:
     - apiVersion: mq.ibm.com/v1beta1
   name: {{ .Values.metadata.name}}
@@ -24,21 +23,21 @@ spec:
       requests:
         cpu: {{ .Values.spec.queueManager.resources.requests.cpu}}
         memory: {{ .Values.spec.queueManager.resources.requests.memory}}
-    readinessProbe:
-      failureThreshold: 1
-      initialDelaySeconds: 10
-      periodSeconds: 5
-      successThreshold: 1
-      timeoutSeconds: 3
+    # readinessProbe:
+    #   failureThreshold: 1
+    #   initialDelaySeconds: 10
+    #   periodSeconds: 5
+    #   successThreshold: 1
+    #   timeoutSeconds: 3
     route:
       enabled: {{ .Values.spec.queueManager.route.enabled}}
     name: {{ .Values.spec.queueManager.name}}
-    livenessProbe:
-      failureThreshold: 1
-      initialDelaySeconds: 90
-      periodSeconds: 10
-      successThreshold: 1
-      timeoutSeconds: 5
+    # livenessProbe:
+    #   failureThreshold: 1
+    #   initialDelaySeconds: 90
+    #   periodSeconds: 10
+    #   successThreshold: 1
+    #   timeoutSeconds: 5
     imagePullPolicy: {{ .Values.spec.queueManager.imagePullPolicy}}
     debug: false
     logFormat: Basic

@@ -1,8 +1,7 @@
-# Default values for ppcmq.
+# Default values for ibm-ppc-mq.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 metadata:
-  generation: 1
   name: ppcmq
   namespace: tools
 spec:
