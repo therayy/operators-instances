@@ -22,7 +22,7 @@ spec:
         memory: 1Gi 
     route:
       enabled: true
-    name: ibm-queuemanager-instance
+    name: queuemanager
     imagePullPolicy: IfNotPresent
     storage:
       defaultClass: standard
