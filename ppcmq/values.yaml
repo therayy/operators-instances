@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 metadata:
-  name: ppcmq
+  name: QueueManager
   namespace: dev
 spec:
   license:
@@ -22,10 +22,10 @@ spec:
         memory: 1Gi 
     route:
       enabled: true
-    name: ppcmq
+    name: QueueManager
     imagePullPolicy: IfNotPresent
     storage:
-      defaultClass: azure-file
+      defaultClass: standard
       queueManager:
         type: ephemeral
   version: 9.2.5.0-r2
