@@ -3,12 +3,12 @@ entries:
   queuemanager:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-31T22:52:17.306676-07:00"
+    created: "2022-05-31T22:58:32.048706-07:00"
     description: A Helm chart for Kubernetes
-    digest: 78141fa8d31eb723cb5b7878a8bccba57c0b5dac6e2966dc37ab46e7f595a24b
+    digest: 956718f9fe72ed0d2b1831e9fd0affc48c951cca8a5003e9bcc387897092c142
     name: queuemanager
     type: application
     urls:
-    - https://therayy.github.io/operators-instances/queuemanager-0.0.1.tgz
-    version: 0.0.1
-generated: "2022-05-31T22:52:17.306149-07:00"
+    - https://therayy.github.io/operators-instances/queuemanager-0.0.2.tgz
+    version: 0.0.2
+generated: "2022-05-31T22:58:32.048226-07:00"

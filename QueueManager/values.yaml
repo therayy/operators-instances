@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 metadata:
   name: queuemanager
-  namespace: dev
+  namespace: tools
 spec:
   license:
     accept: true
