@@ -46,6 +46,8 @@ spec:
         enabled: false
       queueManager:
         type: {{ .Values.spec.queueManager.storage.queueManager.type}}
+        class: {{ .Values.spec.queueManager.storage.defaultClass}}
+        size: '{{ .Values.spec.queueManager.storage.queueManager.size}}'
       recoveryLogs:
         enabled: false
   securityContext:

@@ -27,7 +27,8 @@ spec:
     storage:
       defaultClass: standard
       queueManager:
-        type: ephemeral
+        type: persistent-claim
+        size: 100
   version: 9.2.3.0-r1
   web:
     enabled: true
