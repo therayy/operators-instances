@@ -28,7 +28,7 @@ spec:
       defaultClass: standard
       queueManager:
         type: persistent-claim
-        size: 100
+        # size: 100
   version: 9.2.3.0-r1
   web:
     enabled: true
