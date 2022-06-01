@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 metadata:
   name: ppcmq
-  namespace: tools
+  namespace: dev
 spec:
   license:
     accept: true
