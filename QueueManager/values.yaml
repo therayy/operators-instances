@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 metadata:
-  name: QueueManager
+  name: queuemanager
   namespace: dev
 spec:
   license:
