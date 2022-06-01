@@ -22,7 +22,7 @@ spec:
         memory: 1Gi 
     route:
       enabled: true
-    name: QueueManager
+    name: queuemanager
     imagePullPolicy: IfNotPresent
     storage:
       defaultClass: standard
