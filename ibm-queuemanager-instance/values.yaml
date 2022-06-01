@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 metadata:
-  name: queuemanager
+  name: ibm-queuemanager-instance
   namespace: tools
 spec:
   license:
@@ -22,13 +22,12 @@ spec:
         memory: 1Gi 
     route:
       enabled: true
-    name: queuemanager
+    name: ibm-queuemanager-instance
     imagePullPolicy: IfNotPresent
     storage:
       defaultClass: standard
       queueManager:
         type: persistent-claim
-        # size: 100
   version: 9.2.3.0-r1
   web:
     enabled: true

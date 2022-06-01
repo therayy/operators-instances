@@ -47,7 +47,6 @@ spec:
       queueManager:
         type: {{ .Values.spec.queueManager.storage.queueManager.type}}
         class: {{ .Values.spec.queueManager.storage.defaultClass}}
-        # size: '{{ .Values.spec.queueManager.storage.queueManager.size}}'
       recoveryLogs:
         enabled: false
   securityContext:
@@ -56,7 +55,7 @@ spec:
     pod:
       containers:
         - env:
-            - name: MQSNOAUT
+            - name: QMSNOAUT
               value: 'yes'
           name: qmgr
           resources: {}
