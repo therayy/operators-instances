@@ -12,7 +12,12 @@ spec:
   queueManager:
     metrics:
       enabled: {{ .Values.spec.queueManager.metrics.enabled}}
-    resources:
+    mqsc:
+    - configMap:
+        items:
+        - static-definitions.mqsc
+        name: mqsc-configmap
+      resources:
       limits:
         cpu: {{ .Values.spec.queueManager.resources.limits.cpu}}
         memory: {{ .Values.spec.queueManager.resources.limits.memory}}
@@ -47,6 +52,7 @@ spec:
       queueManager:
         type: {{ .Values.spec.queueManager.storage.queueManager.type}}
         class: {{ .Values.spec.queueManager.storage.defaultClass}}
+        size: 2Gi
       recoveryLogs:
         enabled: false
   securityContext:
