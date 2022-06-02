@@ -15,6 +15,7 @@ spec:
         items:
         - static-definitions.mqsc
         name: mqsc-configmap
+    name: QM1
     metrics:
       enabled: {{ .Values.spec.queueManager.metrics.enabled}}
       resources:
