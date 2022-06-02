@@ -16,6 +16,8 @@ spec:
             - static-definitions.mqsc
           name: mqsc-configmap
     name: QM2
+    image: >-
+      docker.io/ibmcom/mq@sha256:ab781c17c563c216002f3abb737aebcbe1e586d0b8c1dab1a2da8294e6edcc2c
     metrics:
       enabled: {{ .Values.spec.queueManager.metrics.enabled}}
       resources:

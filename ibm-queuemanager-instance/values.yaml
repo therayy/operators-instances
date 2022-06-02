@@ -23,7 +23,7 @@ spec:
     route:
       enabled: true
     name: queuemanager
-    imagePullPolicy: IfNotPresent
+    imagePullPolicy: Always
     storage:
       defaultClass: standard
       queueManager:
