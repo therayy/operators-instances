@@ -11,11 +11,11 @@ spec:
     use: {{ .Values.spec.license.use}}
   queueManager:
     mqsc:
-    - configMap:
-        items:
-        - static-definitions.mqsc
-        name: mqsc-configmap
-    name: QM1
+      - configMap:
+          items:
+            - static-definitions.mqsc
+          name: mqsc-configmap
+    name: QM2
     metrics:
       enabled: {{ .Values.spec.queueManager.metrics.enabled}}
       resources:
