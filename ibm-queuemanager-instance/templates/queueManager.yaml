@@ -12,11 +12,6 @@ spec:
   queueManager:
     metrics:
       enabled: {{ .Values.spec.queueManager.metrics.enabled}}
-    mqsc:
-    - configMap:
-        items:
-        - static-definitions.mqsc
-        name: mqsc-configmap
       resources:
       limits:
         cpu: {{ .Values.spec.queueManager.resources.limits.cpu}}
@@ -24,6 +19,11 @@ spec:
       requests:
         cpu: {{ .Values.spec.queueManager.resources.requests.cpu}}
         memory: {{ .Values.spec.queueManager.resources.requests.memory}}
+    mqsc:
+    - configMap:
+        items:
+        - static-definitions.mqsc
+        name: mqsc-configmap
     readinessProbe:
       failureThreshold: 1
       initialDelaySeconds: 10

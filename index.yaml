@@ -3,7 +3,17 @@ entries:
   ibm-queuemanager-instance:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.29942-07:00"
+    created: "2022-06-02T12:56:01.560677-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 234358dd9a82b65c1edb1ee3aaf09fffe36d8d1873e0e860f5b2466273035ec8
+    name: ibm-queuemanager-instance
+    type: application
+    urls:
+    - https://therayy.github.io/operators-instances/ibm-queuemanager-instance-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-02T12:56:01.560294-07:00"
     description: A Helm chart for Kubernetes
     digest: 2436a6f5a74e4f67a7bf1461be91b119fecc7acbf1cb7f96b94731fc59404cad
     name: ibm-queuemanager-instance
@@ -13,7 +23,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.29911-07:00"
+    created: "2022-06-02T12:56:01.559896-07:00"
     description: A Helm chart for Kubernetes
     digest: 1409a466d54299e5d29a5b33a2b20e81bdecd49e432625f6f225a8df933539b9
     name: ibm-queuemanager-instance
@@ -23,7 +33,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.298797-07:00"
+    created: "2022-06-02T12:56:01.559531-07:00"
     description: A Helm chart for Kubernetes
     digest: 5a389ce6d1398f732f3477f38f448aae71508a432b5d8dc2e4c19e6d17e3754b
     name: ibm-queuemanager-instance
@@ -33,7 +43,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.298499-07:00"
+    created: "2022-06-02T12:56:01.559165-07:00"
     description: A Helm chart for Kubernetes
     digest: d407561ae30e1ab6226f6ee52f3741d1aa609c6ee84652c7fba7151bd19c0bce
     name: ibm-queuemanager-instance
@@ -43,7 +53,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.29815-07:00"
+    created: "2022-06-02T12:56:01.558768-07:00"
     description: A Helm chart for Kubernetes
     digest: 8bc870360d0a2aae075dbb8abf5d927d7889d6eee0347d0df4e580d04990b367
     name: ibm-queuemanager-instance
@@ -54,7 +64,7 @@ entries:
   queuemanager:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.300022-07:00"
+    created: "2022-06-02T12:56:01.561432-07:00"
     description: A Helm chart for Kubernetes
     digest: d7d6d71878eea9562f6e3a891094dade3a00efbbf7ad4d21c60934dd281c3d7f
     name: queuemanager
@@ -64,7 +74,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-02T12:42:32.299731-07:00"
+    created: "2022-06-02T12:56:01.561043-07:00"
     description: A Helm chart for Kubernetes
     digest: f5fc0bd73bfd69990f44965bef2bcf1b0c7f714edfdf26d647a7799e89e7b839
     name: queuemanager
@@ -72,4 +82,4 @@ entries:
     urls:
     - https://therayy.github.io/operators-instances/queuemanager-0.0.5.tgz
     version: 0.0.5
-generated: "2022-06-02T12:42:32.297639-07:00"
+generated: "2022-06-02T12:56:01.558222-07:00"
